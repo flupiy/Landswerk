@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino - Микроконтроллеры для всех</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">Arduino</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">О платформе</a></li>
+                    <li><a href="#features">Возможности</a></li>
+                    <li><a href="#products">Продукты</a></li>
+                    <li><a href="#community">Сообщество</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <h1>Arduino - Открытая платформа для электронных проектов</h1>
+            <p>Создавайте интерактивные проекты с помощью простых в использовании аппаратных и программных средств.</p>
+            <a href="#about" class="btn">Узнать больше</a>
+        </div>
+    </section>
+
+    <!-- О Arduino -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Что такое Arduino?</h2>
+                    <p>Arduino - это открытая платформа для прототипирования, основанная на простом в использовании аппаратном и программном обеспечении. Она предназначена для художников, дизайнеров, любителей и всех, кто заинтересован в создании интерактивных объектов или сред.</p>
+                    <p>Платы Arduino могут считывать входные данные - свет на датчике, палец на кнопке или сообщение в Twitter - и превращать их в выходные данные - активировать двигатель, включать светодиод, публиковать что-то в Интернете.</p>
+                    <p>Вы можете указать своей плате, что делать, отправив набор инструкций микроконтроллеру на плате. Для этого вы используете язык программирования Arduino (на основе Wiring) и программное обеспечение Arduino (IDE) на основе Processing.</p>
+                    <a href="#features" class="btn">Изучить возможности</a>
+                </div>
+                <div class="about-image">
+                    <div class="arduino-icon">⚡</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Возможности -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Основные возможности Arduino</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>Простота использования</h3>
+                    <p>Arduino упрощает работу с микроконтроллерами, делая электронику доступной для непрофессионалов.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Кроссплатформенность</h3>
+                    <p>Программное обеспечение Arduino работает на Windows, Macintosh OSX и Linux.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Простая среда разработки</h3>
+                    <p>Программное обеспечение Arduino легко освоить новичкам, но достаточно гибко для продвинутых пользователей.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Открытость и расширяемость</h3>
+                    <p>Планы аппаратного обеспечения Arduino публикуются под лицензией Creative Commons.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Большое сообщество</h3>
+                    <p>Миллионы пользователей по всему миру создают проекты и делятся знаниями.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Доступная цена</h3>
+                    <p>Платы Arduino относительно недороги по сравнению с другими платформами для микроконтроллеров.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Продукты -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Популярные платы Arduino</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">Uno</div>
+                    <div class="product-info">
+                        <h3>Arduino Uno</h3>
+                        <p>Самая популярная и рекомендуемая плата для начинающих. Основана на микроконтроллере ATmega328P.</p>
+                        <button class="btn product-btn" data-product="uno">Подробнее</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Nano</div>
+                    <div class="product-info">
+                        <h3>Arduino Nano</h3>
+                        <p>Компактная плата, подходящая для проектов с ограниченным пространством.</p>
+                        <button class="btn product-btn" data-product="nano">Подробнее</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Mega</div>
+                    <div class="product-info">
+                        <h3>Arduino Mega</h3>
+                        <p>Имеет больше цифровых и аналоговых выводов, подходит для сложных проектов.</p>
+                        <button class="btn product-btn" data-product="mega">Подробнее</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">Due</div>
+                    <div class="product-info">
+                        <h3>Arduino Due</h3>
+                        <p>Первая плата Arduino на 32-битном микроконтроллере ARM с повышенной производительностью.</p>
+                        <button class="btn product-btn" data-product="due">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сообщество -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2>Присоединяйтесь к сообществу Arduino</h2>
+            <p>Arduino имеет огромное международное сообщество, которое включает в себя как любителей, так и профессионалов. Вы можете найти учебные пособия, проекты и получить помощь на форумах.</p>
+            <a href="#" class="btn">Присоединиться</a>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Электронная почта</h3>
+                    <p>info@arduino.cc</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🌐</div>
+                    <h3>Веб-сайт</h3>
+                    <p>www.arduino.cc</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>Социальные сети</h3>
+                    <p>Twitter, Facebook, Instagram</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Arduino</h3>
+                    <p>Открытая платформа для создания электронных проектов.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">О платформе</a></li>
+                        <li><a href="#features">Возможности</a></li>
+                        <li><a href="#products">Продукты</a></li>
+                        <li><a href="#community">Сообщество</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Ресурсы</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Документация</a></li>
+                        <li><a href="#">Форум</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Магазин</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Arduino. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scrollToTop" class="scroll-top-btn">↑</button>
+
+    <!-- Модальное окно -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle">Информация о продукте</h2>
+            <div id="modalContent">
+                <!-- Содержимое модального окна будет заполнено JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
